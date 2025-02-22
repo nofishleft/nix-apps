@@ -16,17 +16,7 @@
   openblas,
   opencv,
   pkg-config,
-  #qt5,
   libsForQt5,
-/*
-  qtbase,
-  qtmultimedia,
-  qtscript,
-  qtserialport,
-  qttools,
-  qtwayland,
-  wrapQtAppsHook,
-*/
   lib,
   stdenv,
   superlu,
@@ -102,15 +92,6 @@ in stdenv.mkDerivation {
     lzo
     openblas
     opencv
-    #qt5
-    /*
-    qtbase
-    qtmultimedia
-    qtscript
-    qtserialport
-    qttools
-    qtwayland
-    */
     superlu
     xz
     zlib
@@ -140,42 +121,5 @@ in stdenv.mkDerivation {
   postInstall = ''
     sed -i '/cp -r .*stuff/a\    chmod -R u+w $HOME/.config/Tahoma2D/stuff' $out/bin/tahoma2d
   '';
-
-  /*
-
-  dontUseCmakeConfigure=true;
-
-  buildPhase = ''
-    # libtiff
-    pushd $src/thirdparty/tiff-4.2.0
-      ./configure --with-pic --disable-jbig --disable-webp
-      make -j$(nproc)
-    popd
-
-    # tahoma2d
-    mkdir -p $src/toonz/build
-    pushd $src/toonz/build
-      cmake $src/toonz/sources -DCMAKE_INSTALL_PREFIX=$out/opt/tahoma2d
-      make -j$(nproc)
-    popd
-  '';
-
-  installPhase = ''
-    mkdir -p $out
-    pushd $src/toonz/build
-      make install
-    popd
-
-    mkdir -p $out/bin
-    ln -sT $out/bin/tahoma2d $out/opt/tahoma2d/bin/tahoma2d
-  '';
-
-  postInstall = ''
-    mkdir -p $HOME/.config/Tahoma2D
-    cp -r $src/stuff $HOME/.config/Tahoma2D/
-    sed 's/$HOME/'$out'/' $src/toonz/install/SystemVar.ini > $HOME/.config/Tahoma2D/SystemVar.ini
-  '';
-  */
-
 }
 
