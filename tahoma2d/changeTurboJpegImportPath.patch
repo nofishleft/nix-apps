@@ -1,0 +1,7 @@
+--- a/toonz/sources/common/tiio/tiio_jpg.cpp
++++ b/toonz/sources/common/tiio/tiio_jpg.cpp
+@@ -16,3 +16,3 @@
+ 
+-#include "../../libjpeg-turbo/include/jerror.h"
++#include "jerror.h"
+ 
