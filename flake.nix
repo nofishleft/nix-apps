@@ -15,6 +15,7 @@
       {
         packages = {
           tahoma2d = pkgs.callPackage ./tahoma2d {};
+          jammer = pkgs.callPackage ./jammer {};
         };
       }
     );
