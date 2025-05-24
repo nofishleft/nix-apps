@@ -4,6 +4,7 @@
   dotnetCorePackages,
   writeShellScriptBin,
   libbass,
+  ffmpeg,
   stdenv,
   unzip,
   fetchurl,
@@ -62,7 +63,6 @@ let
       homepage = "https://www.un4seen.com/";
       license = licenses.unfreeRedistributable;
       platforms = builtins.attrNames bass_aac.so;
-      maintainers = with maintainers; [ poz ];
     };
   };
 
@@ -94,6 +94,7 @@ let
     runtimeDeps = [
       libbass
       libbass_aac
+      ffmpeg
     ];
   });
 in
