@@ -20,6 +20,7 @@
           tahoma2d = pkgs.callPackage ./tahoma2d {};
           jammer = pkgs.callPackage ./jammer {};
           ytermusic = pkgs.callPackage ./ytermusic {};
+          gamescope = pkgs.callPackage ./gamescope {};
         };
       }
     );

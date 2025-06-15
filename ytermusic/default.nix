@@ -21,12 +21,12 @@ rustPlatform.buildRustPackage {
 
   cargoPatches = [
     # Fix compilation with Rust 1.80 (https://github.com/NixOS/nixpkgs/issues/332957)
-    ./time-crate.patch
+    # ./time-crate.patch
   ];
 
   useFetchCargoVendor = true;
 
-  cargoHash = "sha256-5KbqX8HU7s5ZLoCVUmZhvrliAl3wXV4/nMEI5tq2piU=";
+  cargoHash = "sha256-K8gvSzf8kGFJa+GYeEHnwc06s6LK38vRmSkkmovYW8g=";
 
   doCheck = true;
 

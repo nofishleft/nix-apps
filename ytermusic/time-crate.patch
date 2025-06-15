@@ -14,14 +14,26 @@ index 1fbd706..6578477 100644
  dependencies = [
   "powerfmt",
  ]
+@@ -3664,9 +3646,9 @@ dependencies = [
+ 
+ [[package]]
+ name = "rookie"
+-version = "0.5.6"
++version = "0.5.2"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "ec13c4a0a48ef3a59770e8680eab740027ade9502c693320be12af29c025897e"
++checksum = "0c0d97843a70970bec8e17bbf6329a5865f12c21c8fcb6e263a806b170fcfad6"
+ dependencies = [
+  "aes",
+  "aes-gcm",
 @@ -3710,9 +3710,9 @@ dependencies = [
  
  [[package]]
  name = "time"
--version = "0.3.34"
+-version = "0.3.37"
 +version = "0.3.41"
  source = "registry+https://github.com/rust-lang/crates.io-index"
--checksum = "c8248b6521bb14bc45b4067159b9b6ad792e2d6d754d6c41fb50e29fefe38749"
+-checksum = "35e7868883861bd0e56d9ac6efcaaca0d6d5d82a2a7ec8209ff492c07cf37b21"
 +checksum = "8a7619e19bc266e0f9c5e6686659d394bc57973859340060a69221e57dbc0c40"
  dependencies = [
   "deranged",
@@ -38,10 +50,10 @@ index 1fbd706..6578477 100644
  
  [[package]]
  name = "time-macros"
--version = "0.2.17"
+-version = "0.2.19"
 +version = "0.2.22"
  source = "registry+https://github.com/rust-lang/crates.io-index"
--checksum = "7ba3a3ef41e6672a2f0f001392bb5dcd3ff0a9992d618ca761a11c3121547774"
+-checksum = "2834e6017e3e5e4b9834939793b282bc03b37a3336245fa820e35e233e2a85de"
 +checksum = "3526739392ec93fd8b359c8e98514cb3e8e021beb4e5f597b00a0221f8ed8a49"
  dependencies = [
   "num-conv",
