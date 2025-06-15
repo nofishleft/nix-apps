@@ -11,4 +11,8 @@ gamescope.overrideAttrs (oldAttrs: {
     fetchSubmodules = true;
     sha256 = "2AxqvZA1eZaJFKMfRljCIcP0M2nMngw0FQiXsfBW7IA=";
   };
+  patches = [
+    ./shaders-path.patch
+    ./gamescopereaper.patch
+  ];
 })
