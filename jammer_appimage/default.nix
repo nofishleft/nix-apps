@@ -20,6 +20,7 @@ appimageTools.wrapType2 {
   extraPkgs = pkgs: [
     pkgs.icu
     pkgs.libxcrypt-legacy
+    pkgs.ffmpeg
   ];
 
   # extraInstallCommands = ''
