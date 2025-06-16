@@ -19,6 +19,7 @@
         packages = {
           tahoma2d = pkgs.callPackage ./tahoma2d {};
           jammer = pkgs.callPackage ./jammer {};
+          jammer-appimage = pkgs.callPackage ./jammer_appimage {};
           ytermusic = pkgs.callPackage ./ytermusic {};
           gamescope = pkgs.callPackage ./gamescope {};
         };
