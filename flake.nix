@@ -22,6 +22,7 @@
           jammer-appimage = pkgs.callPackage ./jammer_appimage {};
           ytermusic = pkgs.callPackage ./ytermusic {};
           gamescope = pkgs.callPackage ./gamescope {};
+          kindlegen = pkgs.callPackage ./kindlegen {};
         };
       }
     );
