@@ -22,7 +22,7 @@ stdenv.mkDerivation {
   installPhase = ''
     runHook preInstall
 
-    mkdir =p $out/bin
+    mkdir -p $out/bin
     install -m755 -D $src/kindlegen $out/bin/kindlegen
     
     
