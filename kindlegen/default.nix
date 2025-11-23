@@ -9,7 +9,7 @@ stdenv.mkDerivation {
   
   src = fetchTarball {
     url = "https://archive.org/download/kindlegen2.9/kindlegen_linux_2.6_i386_v2_9.tar.gz";
-    hash = "sha256-mCjbWiyJcNSHraLKqRo7ZAMhDV0YOn44SbGyBv8EIpY=";
+    sha256 = "u92xoQEFgcnmIsddhv6GZ149yt9F37I9eNn9Ne/xy8U=";
   };
 
   dontConfigure = true;
