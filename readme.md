@@ -11,8 +11,6 @@ Tested on personal setup:
 
 | App | Status | Desc |
 | --- | --- | --- |
-| [KindleGen](https://archive.org/details/kindlegen2.9) | Untested | |
+| [KindleGen](https://archive.org/details/kindlegen2.9) | Working | |
 | [Tahoma2D](https://github.com/tahoma2d/tahoma2d) | Working | Fork of OpenToonz |
 | [Gamescope](https://github.com/ValveSoftware/gamescope) | Working | Downgraded version to fix incompatibility with Hyprland. |
-| [Ytermusic](https://github.com/ccgauche/ytermusic) | Broken |  |
-| [Jammer](https://github.com/jooapa/jammer) | Broken |  |
