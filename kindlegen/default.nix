@@ -8,7 +8,7 @@ stdenv.mkDerivation {
   version = "2.9";
   
   src = fetchTarball {
-    url = "https://archive.org/download/kindlegen2.9/kindlegen_linux_2.6_i386_v2_9.tar.gz";
+    url = "https://github.com/nofishleft/nix-apps/releases/download/kindlegen_upload/kindlegen_linux_2.6_i386_v2_9.tar.gz";
     sha256 = "u92xoQEFgcnmIsddhv6GZ149yt9F37I9eNn9Ne/xy8U=";
   };
 
